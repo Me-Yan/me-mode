@@ -8,6 +8,7 @@ import java.util.List;
 
 /**
  * Created by yanyanghong on 2019/4/8.
+ *  迭代模式
  */
 public class IteratorTest implements ModeTest {
     public void test() {
