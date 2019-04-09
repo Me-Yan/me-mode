@@ -1,5 +1,8 @@
 import com.me.inner.mode.ModeTest;
 import com.me.inner.mode.adapter.second.AdapterTest;
+import com.me.inner.mode.factoryMethod.FactoryMethodTest;
+import com.me.inner.mode.prototype.PrototypeTest;
+import com.me.inner.mode.singleton.SingletonTest;
 import com.me.inner.mode.templateMode.TemplateModeTest;
 
 /**
@@ -10,7 +13,7 @@ public class Application {
 
     public static void main(String[] args) {
 
-        ModeTest mode = new TemplateModeTest();
+        ModeTest mode = new PrototypeTest();
         mode.test();
 
     }
