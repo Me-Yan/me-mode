@@ -6,6 +6,7 @@ import java.util.LinkedList;
 
 /**
  * Created by Me on 2019/4/12.
+ * 策略模式
  */
 public class StrategyTest implements ModeTest {
 

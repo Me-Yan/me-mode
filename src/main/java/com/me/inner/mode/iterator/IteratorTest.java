@@ -9,6 +9,7 @@ import java.util.List;
 /**
  * Created by yanyanghong on 2019/4/8.
  *  迭代模式
+ *  1. 集合实现Iterable接口，迭代器实现Iterator接口
  */
 public class IteratorTest implements ModeTest {
     public void test() {
